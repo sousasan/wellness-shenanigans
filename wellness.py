@@ -10,7 +10,6 @@ def base_x_max(x,num_players):
 		total = total + max_digit*(x**i)
 	return total
 
-
 def to_base_x(x,n,num_players):
 
     s = ""
@@ -77,20 +76,20 @@ def main():
 
 	global player_scores
 	player_scores = {
-	0:['emma',388813],
-	1:['raquel',359430],
+	0:['emm',388813],
+	1:['raq',359430],
 	2:['ray',337150],
-	3:['sergei',300071],
-	4:['andreea',239065],
-	5:['mitchell',150440],
-	6:['sandra',471631],
-	7:['mike',433345],
-	8:['lynn',398030],
-	9:['matthew',305385],
-	10:['scott',260947],
-	11:['james',144432],
-	12:['clayton',106613],
-	13:['olga',450000]
+	3:['ser',300071],
+	4:['and',239065],
+	5:['mit',150440],
+	6:['san',471631],
+	7:['mik',433345],
+	8:['lyn',398030],
+	9:['mat',305385],
+	10:['sco',260947],
+	11:['jam',144432],
+	12:['cla',106613],
+	13:['olg',450000]
 	}
 
 	num_teams = 3
